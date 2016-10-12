@@ -6,107 +6,141 @@
 
   </head>
 
-  <body>
+    <body>
 
-    <main>
+      <main>
 
-      <h1> Basic Info </h1>
+        <h1> Basic Info </h1>
 
-        <form method='POST' enctype='multipart/form-data'>
+          <form method='POST' enctype='multipart/form-data'>
 
-          <aside>
+            <aside>
 
-            <label name='Name' for='name'>Full Name</label>
-            <input type='text' id='name'>
+              <label name='Name' for='name'>Full Name</label>
+              <input type='text' id='name'>
 
-          </aside>
+            </aside>
 
-          <aside>
+            <aside>
 
-            <label name='Profile-pic' for='profile'>Profile Pic</label>
-            <input type='file' id='profile'>
+              <label name='Profile-pic' for='profile'>Profile Pic</label>
+              <input type='file' id='profile'>
 
-          </aside>
+            </aside>
 
-          <aside>
+            <aside>
 
-            <label name='user-email' for='email'>Email</label>
-            <input type='email' id='email'>
+              <label name='user-email' for='email'>Email</label>
+              <input type='email' id='email' placeholder="****@TIY.com">
 
-          </aside>
+            </aside>
 
-          <aside>
+            <aside>
 
-            <h2>Side</h2>
-              <input type='radio' name='favorite-side' id='side-light'>
-              <label for='side-light'>Light</label>
-              <input type='radio' name='favorite-side' id='side-dark'>
-              <label for='side-dark'>Dark</label>
+              <h2>Side</h2>
+                <input type='radio' name='favorite-side' id='side-light'>
+                <label for='side-light'>Light</label>
+                <input type='radio' name='favorite-side' id='side-dark'>
+                <label for='side-dark'>Dark</label>
 
-          </aside>
+            </aside>
 
-          <aside>
+            <aside>
 
-            <h3>Origin Story</h3>
-            <textarea id='origin' name='origin'></textarea>
+              <label for='origin'>Origin Story</label>
+              <textarea id='origin' name='origin'></textarea>
 
-          </aside>
+            </aside>
 
-          <aside>
+            <aside>
 
-            <h1> Abilities </h1>
+              <h1> Abilities </h1>
 
-              <h4>Lightsaber Color</h4>
+                <h4>Lightsaber Color</h4>
 
                 <select>
 
-                  <value='Red'>Red</option>
-                  <option value='Blue'>Blue</option>
-                  <option value='Yellow'>Yellow</option>
-                  <option value='Green'>Green</option>
-                  <option value='Purple'>Purple</option>
+                    <option value='Red'>Red</option>
+                    <option value='Blue'>Blue</option>
+                    <option value='Yellow'>Yellow</option>
+                    <option value='Green'>Green</option>
+                    <option value='Purple'>Purple</option>
 
-              </select>
+                </select>
 
-          </aside>
+            </aside>
 
-          <!-- STILL MISSING THE OBJECT LEVITATION INPUT SELECTOR -->
-          <aside>
+            <aside>
 
-            <label for='skill' name='skill'>Favorite Ability</label>
-            <input type id='skill' placeholder='precognition'>
+            <aside>
 
-          </aside>
+                <input type='number' min='0' id='add' name='levitate'>
+                <label for='add'>How many objects can you levitate at once?</label>
 
-          <aside>
+            </aside>
 
-            <h5> Pilot Experience </h5>
-            <label for:'exp'>Speeder</label>
-            <input type= 'checkbox' id='exp' name='speeder'>
-            <label for='trans'>Transport</label>
-            <input type='checkbox' id='trans' name='transport'>
-            <label for:'x-wing'>X-wing</label>
-            <input type= 'checkbox' id='x-wing' name='x-wing'>
-            <label for:'tie'>TIE Fighter</label>
-            <input type= 'checkbox' id='tie' name='tie-fighter'>
+            <aside>
 
-          </aside>
+              <label for='skill' name='skill'>Favorite Ability</label>
+              <input type id='skill' placeholder='precognition'>
 
-          <aside>
+            </aside>
 
-            <label for:'star'>Starship</label>
-            <input type= 'checkbox' id='star' name='starship'>
-            <label for:'bantha'>Bantha</label>
-            <input type= 'checkbox' id='bantha' name='bantha'>
+            <aside>
 
-          </aside>
+              <h5> Pilot Experience </h5>
+              <label for:'exp'>Speeder</label>
+              <input type= 'checkbox' id='exp' name='speeder'>
+              <label for='trans'>Transport</label>
+              <input type='checkbox' id='trans' name='transport'>
+              <label for:'x-wing'>X-wing</label>
+              <input type= 'checkbox' id='x-wing' name='x-wing'>
+              <label for:'tie'>TIE Fighter</label>
+              <input type= 'checkbox' id='tie' name='tie-fighter'>
 
+            </aside>
 
+            <aside>
 
-      </form>
+              <label for:'star'>Starship</label>
+              <input type= 'checkbox' id='star' name='starship'>
+              <label for:'bantha'>Bantha</label>
+              <input type='checkbox' id='bantha' name='bantha'>
 
-    </main>
+            </aside>
 
-  </body>
+            <h1> Application Info </h1>
+
+              <aside>
+
+                  <input type='text' name='mentor' id='teach' placeholder='Yoda'>
+                  <label for='teach'>Desired Mentor</label>
+
+              </aside>
+
+            <aside>
+
+              <input type='date' name='date' id='date'>
+              <label for='date'>Application Date</label>
+
+            </aside>
+
+            <aside>
+
+              <input type='password' id='pass' name='password'>
+              <label for='pass'>Application Password</label>
+
+            </aside>
+
+            <aside>
+
+              <textarea id='dark-side'></textarea>
+              <label for='dark-side'>How do you get to the dark side?</label>
+
+          </form>
+
+      </main>
+
+    </body>
 
 </html>
