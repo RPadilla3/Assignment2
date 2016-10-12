@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html>
   <head>
+
     <meta charset='utf-8'>
     <title>HTML Forms</title>
+    <link rel='stylesheet' href='forms.css' type='text/css'>
 
   </head>
 
     <body>
 
-      <main>
-
+      <header>
         <h1> Basic Info </h1>
 
-          <form method='POST' enctype='multipart/form-data'>
+          <form method='POST' action='http://requestb.in/1dy59t41' enctype='multipart/form-data'>
 
             <aside>
 
@@ -50,10 +51,8 @@
               <label for='origin'>Origin Story</label>
               <textarea id='origin' name='origin'></textarea>
 
-            </aside>
-
-            <aside>
-
+          </header>
+            <main>
               <h1> Abilities </h1>
 
                 <h4>Lightsaber Color</h4>
@@ -108,6 +107,7 @@
               <input type='checkbox' id='bantha' name='bantha'>
 
             </aside>
+          </main>
 
             <h1> Application Info </h1>
 
@@ -137,9 +137,15 @@
               <textarea id='dark-side'></textarea>
               <label for='dark-side'>How do you get to the dark side?</label>
 
-          </form>
+            </aside>
 
-      </main>
+            <input type='reset' value='Start Over' name='reset' id='reset'>
+            <label for='reset'></label>
+
+            <input type='submit' value='Apply' id='apply' name='apply'>
+            <label for='apply'></label>
+
+          </form>
 
     </body>
 

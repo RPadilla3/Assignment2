@@ -1,4 +1,16 @@
-html {
+
+header {
+  border: solid 1px;
+  float: left;
+}
+
+main {
+  border: solid 1px;
+  text-align: center;
+}
+
+form {
+  float: right;
   border: solid 1px;
 }
 
