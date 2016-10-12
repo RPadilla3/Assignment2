@@ -9,84 +9,57 @@
   </head>
 
     <body>
-
       <header>
         <h1> Basic Info </h1>
-
           <form method='POST' action='http://requestb.in/1dy59t41' enctype='multipart/form-data'>
-
-            <aside>
-
-              <label name='Name' for='name'>Full Name</label>
-              <input type='text' id='name'>
-
-            </aside>
-
-            <aside>
-
-              <label name='Profile-pic' for='profile'>Profile Pic</label>
-              <input type='file' id='profile'>
-
-            </aside>
-
-            <aside>
-
-              <label name='user-email' for='email'>Email</label>
-              <input type='email' id='email' placeholder="****@TIY.com">
-
-            </aside>
-
-            <aside>
-
-              <h2>Side</h2>
-                <input type='radio' name='favorite-side' id='side-light'>
+          <aside>
+            <label name='Name' for='name'>Full Name</label>
+            <input type='text' id='name'>
+          </aside>
+          <aside>
+            <label name='Profile-pic' for='profile'>Profile Pic</label>
+            <input type='file' id='profile'>
+          </aside>
+          <aside>
+             <label name='user-email' for='email'>Email</label>
+             <input type='email' id='email' placeholder="****@TIY.com">
+          </aside>
+          <aside>
+            <h2>Side</h2>
+              <input type='radio' name='favorite-side' id='side-light'>
                 <label for='side-light'>Light</label>
                 <input type='radio' name='favorite-side' id='side-dark'>
                 <label for='side-dark'>Dark</label>
+          </aside>
+          <aside>
+            <label for='origin'>Origin Story</label>
+            <textarea id='origin' name='origin'></textarea>
+          </aside>
+      </header>
+        <main>
+          <h1> Abilities </h1>
 
-            </aside>
-
+          <h4>Lightsaber Color</h4>
             <aside>
+              <select>
 
-              <label for='origin'>Origin Story</label>
-              <textarea id='origin' name='origin'></textarea>
-
-          </header>
-            <main>
-              <h1> Abilities </h1>
-
-                <h4>Lightsaber Color</h4>
-
-                <select>
-
-                    <option value='Red'>Red</option>
-                    <option value='Blue'>Blue</option>
-                    <option value='Yellow'>Yellow</option>
-                    <option value='Green'>Green</option>
-                    <option value='Purple'>Purple</option>
+                <option value='Red'>Red</option>
+                <option value='Blue'>Blue</option>
+                <option value='Yellow'>Yellow</option>
+                <option value='Green'>Green</option>
+                <option value='Purple'>Purple</option>
 
                 </select>
-
             </aside>
-
             <aside>
-
-            <aside>
-
-                <input type='number' min='0' id='add' name='levitate'>
-                <label for='add'>How many objects can you levitate at once?</label>
-
+              <input type='number' min='0' id='add' name='levitate'>
+              <label for='add'>How many objects can you levitate at once?</label>
             </aside>
-
             <aside>
-
               <label for='skill' name='skill'>Favorite Ability</label>
               <input type id='skill' placeholder='precognition'>
-
             </aside>
-
             <aside>
-
               <h5> Pilot Experience </h5>
               <label for:'exp'>Speeder</label>
               <input type= 'checkbox' id='exp' name='speeder'>
@@ -96,57 +69,36 @@
               <input type= 'checkbox' id='x-wing' name='x-wing'>
               <label for:'tie'>TIE Fighter</label>
               <input type= 'checkbox' id='tie' name='tie-fighter'>
-
             </aside>
-
             <aside>
-
               <label for:'star'>Starship</label>
               <input type= 'checkbox' id='star' name='starship'>
               <label for:'bantha'>Bantha</label>
               <input type='checkbox' id='bantha' name='bantha'>
-
             </aside>
           </main>
-
             <h1> Application Info </h1>
-
               <aside>
-
-                  <input type='text' name='mentor' id='teach' placeholder='Yoda'>
-                  <label for='teach'>Desired Mentor</label>
-
+                <input type='text' name='mentor' id='teach' placeholder='Yoda'>
+                <label for='teach'>Desired Mentor</label>
               </aside>
-
-            <aside>
-
-              <input type='date' name='date' id='date'>
-              <label for='date'>Application Date</label>
-
-            </aside>
-
-            <aside>
-
-              <input type='password' id='pass' name='password'>
-              <label for='pass'>Application Password</label>
-
-            </aside>
-
-            <aside>
-
-              <textarea id='dark-side'></textarea>
-              <label for='dark-side'>How do you get to the dark side?</label>
-
-            </aside>
-
-            <input type='reset' value='Start Over' name='reset' id='reset'>
-            <label for='reset'></label>
-
-            <input type='submit' value='Apply' id='apply' name='apply'>
-            <label for='apply'></label>
-
-          </form>
-
-    </body>
-
+              <aside>
+                <input type='date' name='date' id='date'>
+                <label for='date'>Application Date</label>
+              </aside>
+              <aside>
+                <input type='password' id='pass' name='password'>
+                <label for='pass'>Application Password</label>
+              </aside>
+              <aside>
+                <textarea id='dark-side'></textarea>
+                <label for='dark-side'>How do you get to the dark side?</label>
+              </aside>
+                <input type='reset' value='Start Over' name='reset' id='reset'>
+                <label for='reset'></label>
+                <input type='submit' value='Apply' id='apply' name='apply'>
+                <label for='apply'></label>
+              </p>
+            </form>
+      </body>
 </html>

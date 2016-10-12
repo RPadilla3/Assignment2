@@ -1,23 +1,8 @@
 
-header {
-  border: solid 1px;
-  float: left;
-}
-
-main {
-  border: solid 1px;
-  text-align: center;
-}
-
-form {
-  float: right;
-  border: solid 1px;
-}
-
+/* Everything under this code is for the buttons only */
 #reset {
   background-color: #cccccc;
   font-family: Oswald;
-
 }
 
 #apply {
@@ -26,9 +11,9 @@ form {
 }
 
 #reset:hover {
-  background: red;
+  background: #ff0000;
 }
 
 #apply:hover {
-  background: green;
+  background: #00ff00;
 }
