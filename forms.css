@@ -1,0 +1,22 @@
+html {
+  border: solid 1px;
+}
+
+#reset {
+  background-color: #cccccc;
+  font-family: Oswald;
+
+}
+
+#apply {
+  background-color: #cccccc;
+  font-family: Oswald;
+}
+
+#reset:hover {
+  background: red;
+}
+
+#apply:hover {
+  background: green;
+}
