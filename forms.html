@@ -10,7 +10,8 @@
 
     <body>
       <header>
-        <h1> Basic Info </h1>
+        <fieldset>
+          <legend>Basic Info</legend>
           <form method='POST' action='http://requestb.in/1dy59t41' enctype='multipart/form-data'>
           <aside>
             <label name='Name' for='name'>Full Name</label>
@@ -35,11 +36,11 @@
             <label for='origin'>Origin Story</label>
             <textarea id='origin' name='origin'></textarea>
           </aside>
+        </fieldset>
       </header>
-        <main>
-          <h1> Abilities </h1>
-
-          <h4>Lightsaber Color</h4>
+        <fieldset>
+          <legend>Abilities</legend>
+          <main>
             <aside>
               <select>
 
@@ -77,7 +78,9 @@
               <input type='checkbox' id='bantha' name='bantha'>
             </aside>
           </main>
-            <h1> Application Info </h1>
+        </fieldset>
+        <fieldset>
+          <legend>Application Info</legend>
               <aside>
                 <input type='text' name='mentor' id='teach' placeholder='Yoda'>
                 <label for='teach'>Desired Mentor</label>
@@ -100,5 +103,6 @@
                 <label for='apply'></label>
               </p>
             </form>
+          </fieldset>
       </body>
 </html>
