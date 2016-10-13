@@ -7,6 +7,44 @@ body {
   min-width: 350px;
 }
 
+#name {
+  display: block;
+}
+
+#profile {
+  display: block;
+}
+
+#email {
+  display: block;
+}
+
+#origin {
+  display: block;
+}
+
+.color {
+  display: block;
+}
+#add {
+  display: block;
+}
+
+#skill {
+  display: block;
+}
+
+#pass {
+  display: block;
+}
+
+#date {
+  display: block;
+}
+
+#teach {
+  display: block;
+}
 /* Everything under this code is for the buttons only */
 #reset {
   background-color: #cccccc;
