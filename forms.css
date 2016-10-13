@@ -50,7 +50,13 @@ body {
   display: block;
 }
 
-/* Everything under this code is for the buttons only */
+fieldset {
+  display: inline;
+  
+}
+
+/* Everything under this comment is style for the buttons only */
+
 
 #reset {
   background-color: #cccccc;
