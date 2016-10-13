@@ -45,7 +45,13 @@ body {
 #teach {
   display: block;
 }
+
+#dark-side {
+  display: block;
+}
+
 /* Everything under this code is for the buttons only */
+
 #reset {
   background-color: #cccccc;
   font-family: Oswald;
